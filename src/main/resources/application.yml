@@ -7,9 +7,9 @@ spring:
   profiles: default
 datasource:
   sampleapp:
-    url: jdbc:mysql://94.73.151.138:3306/stdiosoft
-    username: stdiosoft
-    password: XYkm50O5
+    url: jdbc:mysql://localhost:3306/database
+    username: username
+    password: password
     driverClassName: com.mysql.jdbc.Driver
     defaultSchema:
     maxPoolSize: 20
